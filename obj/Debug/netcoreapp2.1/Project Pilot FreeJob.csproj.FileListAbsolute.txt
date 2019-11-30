@@ -1,0 +1,38 @@
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.deps.json
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.runtimeconfig.json
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.runtimeconfig.dev.json
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.dll
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.csprojAssemblyReference.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.csproj.CoreCompileInputs.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.RazorAssemblyInfo.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.RazorAssemblyInfo.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.AssemblyInfoInputs.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.AssemblyInfo.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.TagHelpers.input.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.TagHelpers.output.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.RazorCoreGenerate.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.RazorTargetAssemblyInfo.cache
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.RazorTargetAssemblyInfo.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.pdb
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.Views.dll
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\bin\Debug\netcoreapp2.1\Project Pilot FreeJob.Views.pdb
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.Views.pdb
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.dll
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.pdb
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Project Pilot FreeJob.csproj.CopyComplete
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Create.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Delete.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Details.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Edit.g.cshtml.cs
+C:\Users\Elisama\source\repos\Project Pilot FreeJob\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Index.g.cshtml.cs
