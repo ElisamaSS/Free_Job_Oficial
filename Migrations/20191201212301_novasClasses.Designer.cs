@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project_Pilot_FreeJob.Models;
 
 namespace ProjectPilotFreeJob.Migrations
 {
     [DbContext(typeof(FreeJobDbContext))]
-    partial class FreeJobDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191201212301_novasClasses")]
+    partial class novasClasses
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

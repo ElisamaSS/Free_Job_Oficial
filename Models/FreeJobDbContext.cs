@@ -14,6 +14,15 @@ namespace Project_Pilot_FreeJob.Models
         }
 
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
+
+        public DbSet<Servico> Servico { get; set; }
+        public DbSet<Cadastro> Cadastro { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder mb)
+        {
+            mb.Entity<Cadastro>().HasKey(al => new { al.CategoriaId, al.ServicoId, al.UsuarioId });
+        }
 
     }
 
