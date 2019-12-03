@@ -32,9 +32,12 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Usuario">Cadastro</a></li>
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
+                    <li><a asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastro</a></li>
+
+                    <li><a asp-area="" asp-controller="Login" asp-action="Index">Login</a></li>
+                    @*<li><a href="https://localhost:44372/Usuarios" target="_blank">Cadastro</a></li>*@
                 </ul>
             </div>
         </div>
