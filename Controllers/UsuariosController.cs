@@ -21,6 +21,7 @@ namespace Project_Pilot_FreeJob.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
+            
             return View(await _context.Usuario.ToListAsync());
         }
 

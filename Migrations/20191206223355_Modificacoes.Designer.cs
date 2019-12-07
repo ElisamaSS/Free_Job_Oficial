@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project_Pilot_FreeJob.Models;
 
 namespace ProjectPilotFreeJob.Migrations
 {
     [DbContext(typeof(FreeJobDbContext))]
-    partial class FreeJobDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191206223355_Modificacoes")]
+    partial class Modificacoes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,7 +48,11 @@ namespace ProjectPilotFreeJob.Migrations
                         .IsRequired()
                         .HasMaxLength(10);
 
+                    b.Property<int?>("ServicoId");
+
                     b.HasKey("CategoriaId");
+
+                    b.HasIndex("ServicoId");
 
                     b.ToTable("Categoria");
                 });
@@ -57,15 +63,11 @@ namespace ProjectPilotFreeJob.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CategoriaId");
-
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasMaxLength(10);
 
                     b.HasKey("ServicoId");
-
-                    b.HasIndex("CategoriaId");
 
                     b.ToTable("Servico");
                 });
@@ -83,6 +85,8 @@ namespace ProjectPilotFreeJob.Migrations
                     b.Property<string>("CNH");
 
                     b.Property<string>("CPF");
+
+                    b.Property<int?>("CategoriaId");
 
                     b.Property<string>("Cidade");
 
@@ -104,9 +108,15 @@ namespace ProjectPilotFreeJob.Migrations
 
                     b.Property<string>("Senha");
 
+                    b.Property<int?>("ServicoId");
+
                     b.Property<string>("Telefone");
 
                     b.HasKey("UsuarioId");
+
+                    b.HasIndex("CategoriaId");
+
+                    b.HasIndex("ServicoId");
 
                     b.ToTable("Usuario");
                 });
@@ -129,12 +139,22 @@ namespace ProjectPilotFreeJob.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Project_Pilot_FreeJob.Models.Servico", b =>
+            modelBuilder.Entity("Project_Pilot_FreeJob.Models.Categoria", b =>
                 {
-                    b.HasOne("Project_Pilot_FreeJob.Models.Categoria", "Categoria")
-                        .WithMany()
-                        .HasForeignKey("CategoriaId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                    b.HasOne("Project_Pilot_FreeJob.Models.Servico")
+                        .WithMany("Categoria")
+                        .HasForeignKey("ServicoId");
+                });
+
+            modelBuilder.Entity("Project_Pilot_FreeJob.Models.Usuario", b =>
+                {
+                    b.HasOne("Project_Pilot_FreeJob.Models.Categoria")
+                        .WithMany("Usuario")
+                        .HasForeignKey("CategoriaId");
+
+                    b.HasOne("Project_Pilot_FreeJob.Models.Servico")
+                        .WithMany("Usuario")
+                        .HasForeignKey("ServicoId");
                 });
 #pragma warning restore 612, 618
         }

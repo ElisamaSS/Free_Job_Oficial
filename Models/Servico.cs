@@ -14,7 +14,9 @@ namespace Project_Pilot_FreeJob.Models
     [StringLength(10)]
     public String Descricao { get; set; }
 
-    public ICollection<Categoria> Categoria { get; set; }
-    public ICollection<Usuario> Usuario { get; set; }
+
+    public int CategoriaId { get; set; }
+    public Categoria Categoria { get; set; }
+    
     }
 }

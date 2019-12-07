@@ -15,9 +15,7 @@ namespace Project_Pilot_FreeJob.Models
         [Required]
         [StringLength(10)]
         public String Descricao { get; set; }
-
-        [NotMapped]
-        public ICollection<Servico> Servico { get; set; }
-        public ICollection<Usuario> Usuario { get; set; }
+        
+        
     }
 }
